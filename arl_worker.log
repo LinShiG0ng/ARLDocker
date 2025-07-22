@@ -1,0 +1,303 @@
+[2025-07-04 20:04:54,821: INFO/MainProcess] Connected to amqp://arl:**@rabbitmq:5672/arlv2host
+[2025-07-04 20:04:54,830: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-04 20:04:54,845: INFO/MainProcess] Connected to amqp://arl:**@rabbitmq:5672/arlv2host
+[2025-07-04 20:04:54,862: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-04 20:04:55,860: INFO/MainProcess] mingle: all alone
+[2025-07-04 20:04:55,890: INFO/MainProcess] mingle: all alone
+[2025-07-04 20:04:55,894: INFO/MainProcess] celery@arltask ready.
+[2025-07-04 20:04:55,923: INFO/MainProcess] celery@arlgithub ready.
+[2025-07-08 13:38:56,323: INFO/MainProcess] Connected to amqp://arl:**@rabbitmq:5672/arlv2host
+[2025-07-08 13:38:56,330: INFO/MainProcess] Connected to amqp://arl:**@rabbitmq:5672/arlv2host
+[2025-07-08 13:38:56,338: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-08 13:38:56,341: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-08 13:38:57,363: INFO/MainProcess] mingle: all alone
+[2025-07-08 13:38:57,366: INFO/MainProcess] mingle: all alone
+[2025-07-08 13:38:57,377: INFO/MainProcess] celery@arltask ready.
+[2025-07-08 13:38:57,380: INFO/MainProcess] celery@arlgithub ready.
+[2025-07-22 16:28:01,090: INFO/MainProcess] Connected to amqp://arl:**@rabbitmq:5672/arlv2host
+[2025-07-22 16:28:01,090: INFO/MainProcess] Connected to amqp://arl:**@rabbitmq:5672/arlv2host
+[2025-07-22 16:28:01,105: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-22 16:28:01,112: INFO/MainProcess] mingle: searching for neighbors
+[2025-07-22 16:28:02,128: INFO/MainProcess] mingle: all alone
+[2025-07-22 16:28:02,132: INFO/MainProcess] mingle: all alone
+[2025-07-22 16:28:02,167: INFO/MainProcess] celery@arltask ready.
+[2025-07-22 16:28:02,170: INFO/MainProcess] celery@arlgithub ready.
+[2025-07-22 17:01:54,691: INFO/MainProcess] Task app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b] received
+[2025-07-22 17:01:54,694: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: run_task action:domain_task time: 1753174914.694527
+[2025-07-22 17:01:54,696: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: name:scan-baidu.com, target:baidu.com, task_id:687f5382d4258f05809ccd48
+[2025-07-22 17:01:54,774: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start brute baidu.com with dict 19708
+[2025-07-22 17:01:54,781: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start brute:baidu.com words:19709 wildcard_record:
+[2025-07-22 17:01:54,790: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: MassDNS dict 19709
+[2025-07-22 17:01:54,791: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: /code/app/tools/massdns -q -r /code/app/dicts/dnsserver.txt -o S -w /code/app/tmp/mass_dns_njfoxa -s 300 /code/app/tmp/domain_gen_22ey86 --root
+[2025-07-22 17:02:01,584: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end brute baidu.com, result 1053, elapse 6.809826374053955
+[2025-07-22 17:02:01,834: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start resolver baidu.com 975
+[2025-07-22 17:02:01,928: INFO/ForkPoolWorker-1] ???[???]: ah.baidu.com The DNS query name does not exist: ah.baidu.com.
+[2025-07-22 17:02:01,962: INFO/ForkPoolWorker-1] ???[???]: air.baidu.com The DNS query name does not exist: air.baidu.com.
+[2025-07-22 17:02:01,969: INFO/ForkPoolWorker-1] ???[???]: allen.baidu.com The DNS query name does not exist: allen.baidu.com.
+[2025-07-22 17:02:02,015: INFO/ForkPoolWorker-1] ???[???]: ams.baidu.com The DNS query name does not exist: ams.baidu.com.
+[2025-07-22 17:02:02,033: INFO/ForkPoolWorker-1] ???[???]: arm.baidu.com The DNS query name does not exist: arm.baidu.com.
+[2025-07-22 17:02:02,063: INFO/ForkPoolWorker-1] ???[???]: bs.baidu.com The DNS query name does not exist: bs.baidu.com.
+[2025-07-22 17:02:02,065: INFO/ForkPoolWorker-1] ???[???]: book.baidu.com The DNS query name does not exist: book.baidu.com.
+[2025-07-22 17:02:02,161: INFO/ForkPoolWorker-1] ???[???]: bv.baidu.com The DNS query name does not exist: bv.baidu.com.
+[2025-07-22 17:02:02,166: INFO/ForkPoolWorker-1] ???[???]: cdn.baidu.com The DNS query name does not exist: cdn.baidu.com.
+[2025-07-22 17:02:02,197: WARNING/ForkPoolWorker-1] ???[???]: cbs.baidu.com The DNS response does not contain an answer to the question: cbs.baidu.com. IN A
+[2025-07-22 17:02:02,198: INFO/ForkPoolWorker-1] ???[???]: cbi.baidu.com The DNS query name does not exist: cbi.baidu.com.
+[2025-07-22 17:02:02,219: INFO/ForkPoolWorker-1] ???[???]: children.baidu.com The DNS query name does not exist: children.baidu.com.
+[2025-07-22 17:02:02,266: INFO/ForkPoolWorker-1] ???[???]: clinic.baidu.com The DNS query name does not exist: clinic.baidu.com.
+[2025-07-22 17:02:02,302: INFO/ForkPoolWorker-1] ???[???]: cos.baidu.com The DNS query name does not exist: cos.baidu.com.
+[2025-07-22 17:02:02,334: INFO/ForkPoolWorker-1] ???[???]: das.baidu.com The DNS query name does not exist: das.baidu.com.
+[2025-07-22 17:02:02,368: INFO/ForkPoolWorker-1] ???[???]: dataapi.baidu.com The DNS query name does not exist: dataapi.baidu.com.
+[2025-07-22 17:02:02,452: WARNING/ForkPoolWorker-1] ???[???]: elearning.baidu.com The DNS response does not contain an answer to the question: elearning.baidu.com. IN A
+[2025-07-22 17:02:02,605: INFO/ForkPoolWorker-1] ???[???]: golf.baidu.com The DNS query name does not exist: golf.baidu.com.
+[2025-07-22 17:02:02,660: WARNING/ForkPoolWorker-1] ???[???]: hack.baidu.com The DNS response does not contain an answer to the question: hack.baidu.com. IN A
+[2025-07-22 17:02:02,698: WARNING/ForkPoolWorker-1] ???[???]: hub.baidu.com The DNS response does not contain an answer to the question: hub.baidu.com. IN A
+[2025-07-22 17:02:02,767: INFO/ForkPoolWorker-1] ???[???]: input.baidu.com The DNS query name does not exist: input.baidu.com.
+[2025-07-22 17:02:02,780: INFO/ForkPoolWorker-1] ???[???]: intro.baidu.com The DNS query name does not exist: intro.baidu.com.
+[2025-07-22 17:02:02,864: INFO/ForkPoolWorker-1] ???[???]: kids.baidu.com The DNS query name does not exist: kids.baidu.com.
+[2025-07-22 17:02:02,865: INFO/ForkPoolWorker-1] ???[???]: ks.baidu.com The DNS query name does not exist: ks.baidu.com.
+[2025-07-22 17:02:02,867: INFO/ForkPoolWorker-1] ???[???]: jumbo.baidu.com The DNS query name does not exist: jumbo.baidu.com.
+[2025-07-22 17:02:02,914: INFO/ForkPoolWorker-1] ???[???]: mail.baidu.com The DNS query name does not exist: mail.baidu.com.
+[2025-07-22 17:02:02,976: INFO/ForkPoolWorker-1] ???[???]: mapi.m.baidu.com The DNS query name does not exist: mapi.m.baidu.com.
+[2025-07-22 17:02:03,003: INFO/ForkPoolWorker-1] ???[???]: issue.baidu.com The DNS query name does not exist: issue.baidu.com.
+[2025-07-22 17:02:03,034: INFO/ForkPoolWorker-1] ???[???]: jk.baidu.com The DNS query name does not exist: jk.baidu.com.
+[2025-07-22 17:02:03,118: INFO/ForkPoolWorker-1] ???[???]: nearby.baidu.com The DNS query name does not exist: nearby.baidu.com.
+[2025-07-22 17:02:03,152: INFO/ForkPoolWorker-1] ???[???]: near.baidu.com The DNS query name does not exist: near.baidu.com.
+[2025-07-22 17:02:03,186: INFO/ForkPoolWorker-1] ???[???]: luban.baidu.com The DNS query name does not exist: luban.baidu.com.
+[2025-07-22 17:02:03,208: INFO/ForkPoolWorker-1] ???[???]: oops.baidu.com The DNS query name does not exist: oops.baidu.com.
+[2025-07-22 17:02:03,246: INFO/ForkPoolWorker-1] ???[???]: p4p.baidu.com The DNS query name does not exist: p4p.baidu.com.
+[2025-07-22 17:02:03,378: INFO/ForkPoolWorker-1] ???[???]: rp.baidu.com The DNS query name does not exist: rp.baidu.com.
+[2025-07-22 17:02:03,400: INFO/ForkPoolWorker-1] ???[???]: rg.baidu.com The DNS query name does not exist: rg.baidu.com.
+[2025-07-22 17:02:03,411: INFO/ForkPoolWorker-1] ???[???]: rpc.baidu.com The DNS query name does not exist: rpc.baidu.com.
+[2025-07-22 17:02:03,414: INFO/ForkPoolWorker-1] ???[???]: s.baidu.com The DNS query name does not exist: s.baidu.com.
+[2025-07-22 17:02:03,458: INFO/ForkPoolWorker-1] ???[???]: rz.baidu.com The DNS query name does not exist: rz.baidu.com.
+[2025-07-22 17:02:03,553: INFO/ForkPoolWorker-1] ???[???]: shot.baidu.com The DNS query name does not exist: shot.baidu.com.
+[2025-07-22 17:02:03,560: INFO/ForkPoolWorker-1] ???[???]: shifen.baidu.com The DNS query name does not exist: shifen.baidu.com.
+[2025-07-22 17:02:03,564: INFO/ForkPoolWorker-1] ???[???]: software.baidu.com The DNS query name does not exist: software.baidu.com.
+[2025-07-22 17:02:03,628: INFO/ForkPoolWorker-1] ???[???]: sport.baidu.com The DNS query name does not exist: sport.baidu.com.
+[2025-07-22 17:02:03,630: INFO/ForkPoolWorker-1] ???[???]: spm.baidu.com The DNS query name does not exist: spm.baidu.com.
+[2025-07-22 17:02:03,705: INFO/ForkPoolWorker-1] ???[???]: team.baidu.com The DNS query name does not exist: team.baidu.com.
+[2025-07-22 17:02:03,714: INFO/ForkPoolWorker-1] ???[???]: tim.baidu.com The DNS query name does not exist: tim.baidu.com.
+[2025-07-22 17:02:03,788: INFO/ForkPoolWorker-1] ???[???]: train.baidu.com The DNS query name does not exist: train.baidu.com.
+[2025-07-22 17:02:03,889: WARNING/ForkPoolWorker-1] ???[???]: word.baidu.com The DNS response does not contain an answer to the question: word.baidu.com. IN A
+[2025-07-22 17:02:04,197: INFO/ForkPoolWorker-1] ???[???]: bs.ime.baidu.com The DNS query name does not exist: bs.ime.baidu.com.
+[2025-07-22 17:02:04,198: INFO/ForkPoolWorker-1] ???[???]: szjjh-bvc-am1.szjjh01.baidu.com The DNS query name does not exist: szjjh-bvc-am1.szjjh01.baidu.com.
+[2025-07-22 17:02:04,206: INFO/ForkPoolWorker-1] ???[???]: jpaas-fcore.baidu.com The DNS query name does not exist: jpaas-fcore.baidu.com.
+[2025-07-22 17:02:04,210: INFO/ForkPoolWorker-1] ???[???]: k8s.matrix.baidu.com The DNS query name does not exist: k8s.matrix.baidu.com.
+[2025-07-22 17:02:04,214: INFO/ForkPoolWorker-1] ???[???]: jpaas-ng.baidu.com The DNS query name does not exist: jpaas-ng.baidu.com.
+[2025-07-22 17:02:04,233: INFO/ForkPoolWorker-1] ???[???]: mbdrp.bj.int.baidu.com The DNS query name does not exist: mbdrp.bj.int.baidu.com.
+[2025-07-22 17:02:04,241: INFO/ForkPoolWorker-1] ???[???]: jumbo-online.bcc-bdbl.baidu.com The DNS query name does not exist: jumbo-online.bcc-bdbl.baidu.com.
+[2025-07-22 17:02:04,250: INFO/ForkPoolWorker-1] ???[???]: icafe.baidu.com The DNS query name does not exist: icafe.baidu.com.
+[2025-07-22 17:02:04,263: INFO/ForkPoolWorker-1] ???[???]: shenbian.baidu.com The DNS query name does not exist: shenbian.baidu.com.
+[2025-07-22 17:02:04,267: INFO/ForkPoolWorker-1] ???[???]: yq01-ps-m12-9-build104.yq01.baidu.com The DNS query name does not exist: yq01-ps-m12-9-build104.yq01.baidu.com.
+[2025-07-22 17:02:04,319: INFO/ForkPoolWorker-1] ???[???]: sf.baidu.com The DNS query name does not exist: sf.baidu.com.
+[2025-07-22 17:02:04,320: INFO/ForkPoolWorker-1] ???[???]: m1-psop-con0.m1.baidu.com The DNS query name does not exist: m1-psop-con0.m1.baidu.com.
+[2025-07-22 17:02:04,343: INFO/ForkPoolWorker-1] ???[???]: agroup.baidu.com The DNS query name does not exist: agroup.baidu.com.
+[2025-07-22 17:02:04,370: INFO/ForkPoolWorker-1] ???[???]: monitor.baidu.com The DNS query name does not exist: monitor.baidu.com.
+[2025-07-22 17:02:04,374: INFO/ForkPoolWorker-1] ???[???]: tkweb.baidu.com The DNS query name does not exist: tkweb.baidu.com.
+[2025-07-22 17:02:04,455: INFO/ForkPoolWorker-1] ???[???]: duke.baidu.com The DNS query name does not exist: duke.baidu.com.
+[2025-07-22 17:02:05,891: INFO/ForkPoolWorker-1] ???[???]: tpm.baidu.com The DNS query name does not exist: tpm.baidu.com.
+[2025-07-22 17:02:05,904: INFO/ForkPoolWorker-1] ???[???]: tracker.baidu.com The DNS query name does not exist: tracker.baidu.com.
+[2025-07-22 17:02:06,061: INFO/ForkPoolWorker-1] ???[???]: wx.baidu.com The DNS query name does not exist: wx.baidu.com.
+[2025-07-22 17:02:06,295: INFO/ForkPoolWorker-1] ???[???]: jpaas-matrix.baidu.com The DNS query name does not exist: jpaas-matrix.baidu.com.
+[2025-07-22 17:02:06,446: INFO/ForkPoolWorker-1] ???[???]: oxp.package.baidu.com The DNS query name does not exist: oxp.package.baidu.com.
+[2025-07-22 17:02:07,796: INFO/ForkPoolWorker-1] ???[???]: lighthost.baidu.com The DNS query name does not exist: lighthost.baidu.com.
+[2025-07-22 17:02:08,113: WARNING/ForkPoolWorker-1] ???[???]: bq.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:09,506: WARNING/ForkPoolWorker-1] ???[???]: sia.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:09,600: WARNING/ForkPoolWorker-1] ???[???]: learn.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:09,602: WARNING/ForkPoolWorker-1] ???[???]: jpaas-idea.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:09,610: WARNING/ForkPoolWorker-1] ???[???]: sia.noah.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:09,787: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end resolver baidu.com result 975, elapse 7.952648639678955
+[2025-07-22 17:02:10,102: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start run dns_query_plugin baidu.com
+[2025-07-22 17:02:10,113: INFO/ForkPoolWorker-1] ???[???]: start query baidu.com on alienvault
+[2025-07-22 17:02:10,116: INFO/ForkPoolWorker-1] ???[???]: start query baidu.com on rapiddns
+[2025-07-22 17:02:10,117: INFO/ForkPoolWorker-1] ???[???]: start query baidu.com on fofa
+[2025-07-22 17:02:10,124: ERROR/ForkPoolWorker-1] ???[???]: fofa error: please set fofa key in config-docker.yaml
+[2025-07-22 17:02:10,124: INFO/ForkPoolWorker-1] ???[???]: start query baidu.com on chaos
+[2025-07-22 17:02:10,125: INFO/ForkPoolWorker-1] ???[???]: start query baidu.com on crtsh
+[2025-07-22 17:02:16,071: ERROR/ForkPoolWorker-1] ???[???]: chaos error: 'subdomains'
+[2025-07-22 17:02:18,732: ERROR/ForkPoolWorker-1] ???[???]: crtsh error: Expecting value: line 1 column 1 (char 0)
+[2025-07-22 17:02:29,646: INFO/ForkPoolWorker-1] ???[???]: end query baidu.com on rapiddns, source result:5555, real result:2962 (19.53s)
+[2025-07-22 17:02:40,273: ERROR/ForkPoolWorker-1] ???[???]: alienvault error: HTTPSConnectionPool(host='otx.alienvault.com', port=443): Read timed out. (read timeout=30.1)
+[2025-07-22 17:02:40,276: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: baidu.com subdomains result 2962 (30.16s)
+[2025-07-22 17:02:40,278: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start build domain info, source:rapiddns
+[2025-07-22 17:02:41,281: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start build Domain info 2204
+[2025-07-22 17:02:47,237: WARNING/ForkPoolWorker-1] ???[???]: mx10.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:47,392: WARNING/ForkPoolWorker-1] ???[???]: prm.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:47,742: WARNING/ForkPoolWorker-1] ???[???]: cxtest.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:48,800: WARNING/ForkPoolWorker-1] ???[???]: mx416.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:50,098: WARNING/ForkPoolWorker-1] ???[???]: dev.baitong.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:50,137: WARNING/ForkPoolWorker-1] ???[???]: shengna.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:50,218: WARNING/ForkPoolWorker-1] ???[???]: agent.noah.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:50,304: WARNING/ForkPoolWorker-1] ???[???]: ablog.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:50,341: WARNING/ForkPoolWorker-1] ???[???]: ispeed.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:53,604: WARNING/ForkPoolWorker-1] ???[???]: mx209.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:53,624: WARNING/ForkPoolWorker-1] ???[???]: iop.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:53,667: WARNING/ForkPoolWorker-1] ???[???]: bos.nj.bpc-internal.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:54,457: WARNING/ForkPoolWorker-1] ???[???]: mx440.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:54,551: WARNING/ForkPoolWorker-1] ???[???]: tbmsg.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:55,639: WARNING/ForkPoolWorker-1] ???[???]: ns4.crawl.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:56,162: WARNING/ForkPoolWorker-1] ???[???]: mx442.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:56,506: WARNING/ForkPoolWorker-1] ???[???]: smartcity.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:56,538: WARNING/ForkPoolWorker-1] ???[???]: bsa.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:56,620: WARNING/ForkPoolWorker-1] ???[???]: mx265.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:59,395: WARNING/ForkPoolWorker-1] ???[???]: apo.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:59,433: WARNING/ForkPoolWorker-1] ???[???]: mx208.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:59,556: WARNING/ForkPoolWorker-1] ???[???]: mx432.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:02:59,701: WARNING/ForkPoolWorker-1] ???[???]: xunren.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:02,516: WARNING/ForkPoolWorker-1] ???[???]: usp1.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:02,525: WARNING/ForkPoolWorker-1] ???[???]: fangtest.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:02,547: WARNING/ForkPoolWorker-1] ???[???]: mx174.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:05,270: WARNING/ForkPoolWorker-1] ???[???]: kmmrss.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:05,588: WARNING/ForkPoolWorker-1] ???[???]: hci.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:06,498: WARNING/ForkPoolWorker-1] ???[???]: mx441.baidu.com The resolution lifetime expired after 5.401 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:06,530: WARNING/ForkPoolWorker-1] ???[???]: gzmx.maillb.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:06,762: WARNING/ForkPoolWorker-1] ???[???]: abcxueyuan.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:08,349: WARNING/ForkPoolWorker-1] ???[???]: process.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:08,645: WARNING/ForkPoolWorker-1] ???[???]: emq.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:08,779: WARNING/ForkPoolWorker-1] ???[???]: mx301.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:09,311: WARNING/ForkPoolWorker-1] ???[???]: wtt.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:09,434: WARNING/ForkPoolWorker-1] ???[???]: mx1.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:11,732: WARNING/ForkPoolWorker-1] ???[???]: uil.shahe.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:12,365: WARNING/ForkPoolWorker-1] ???[???]: api.su.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:13,817: WARNING/ForkPoolWorker-1] ???[???]: filestore.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:13,817: WARNING/ForkPoolWorker-1] ???[???]: mx306.baidu.com The resolution lifetime expired after 5.406 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:14,567: WARNING/ForkPoolWorker-1] ???[???]: m.v.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:14,838: WARNING/ForkPoolWorker-1] ???[???]: cmp.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:15,302: WARNING/ForkPoolWorker-1] ???[???]: pollux.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:15,314: WARNING/ForkPoolWorker-1] ???[???]: auction.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:15,785: WARNING/ForkPoolWorker-1] ???[???]: ns2.noah.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:17,751: WARNING/ForkPoolWorker-1] ???[???]: mx434.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:18,219: WARNING/ForkPoolWorker-1] ???[???]: imgpreviewtip.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:18,840: WARNING/ForkPoolWorker-1] ???[???]: mx181.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:20,578: WARNING/ForkPoolWorker-1] ???[???]: mx282.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:20,721: WARNING/ForkPoolWorker-1] ???[???]: mx309.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:21,360: WARNING/ForkPoolWorker-1] ???[???]: hkmx02.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:21,620: WARNING/ForkPoolWorker-1] ???[???]: static.open.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:22,683: WARNING/ForkPoolWorker-1] ???[???]: mx281.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:24,621: WARNING/ForkPoolWorker-1] ???[???]: hkmx01.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:25,799: WARNING/ForkPoolWorker-1] ???[???]: www.jge.www.xdb.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:26,478: WARNING/ForkPoolWorker-1] ???[???]: aicontest.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:26,776: WARNING/ForkPoolWorker-1] ???[???]: titan.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:26,792: WARNING/ForkPoolWorker-1] ???[???]: duguanjia.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:26,828: WARNING/ForkPoolWorker-1] ???[???]: ksn.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:26,835: WARNING/ForkPoolWorker-1] ???[???]: report-uri.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:29,312: WARNING/ForkPoolWorker-1] ???[???]: mx168.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:29,338: WARNING/ForkPoolWorker-1] ???[???]: ics.bce.baidu.com The resolution lifetime expired after 5.401 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:29,365: WARNING/ForkPoolWorker-1] ???[???]: offline.shifen.new.bae.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:29,414: WARNING/ForkPoolWorker-1] ???[???]: bbs.apistore.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:29,739: WARNING/ForkPoolWorker-1] ???[???]: svx.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:30,687: WARNING/ForkPoolWorker-1] ???[???]: pcappstore.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:30,809: WARNING/ForkPoolWorker-1] ???[???]: macmdm.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:31,644: WARNING/ForkPoolWorker-1] ???[???]: titans.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:35,289: WARNING/ForkPoolWorker-1] ???[???]: bpm.noah.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:35,783: WARNING/ForkPoolWorker-1] ???[???]: mx166.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:35,851: WARNING/ForkPoolWorker-1] ???[???]: mx436.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:37,763: WARNING/ForkPoolWorker-1] ???[???]: mx437.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:39,730: WARNING/ForkPoolWorker-1] ???[???]: airec.baidu.com The resolution lifetime expired after 5.403 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:40,347: WARNING/ForkPoolWorker-1] ???[???]: mx201.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:40,477: WARNING/ForkPoolWorker-1] ???[???]: agentchannel.tuisong.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:40,493: WARNING/ForkPoolWorker-1] ???[???]: mx198.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:40,804: WARNING/ForkPoolWorker-1] ???[???]: end.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:41,535: WARNING/ForkPoolWorker-1] ???[???]: popup.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:41,764: WARNING/ForkPoolWorker-1] ???[???]: sniffer.video.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:43,302: WARNING/ForkPoolWorker-1] ???[???]: mx261.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:43,450: WARNING/ForkPoolWorker-1] ???[???]: ltp.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:43,470: WARNING/ForkPoolWorker-1] ???[???]: usdcmx02.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:44,440: WARNING/ForkPoolWorker-1] ???[???]: mx191.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:46,653: WARNING/ForkPoolWorker-1] ???[???]: wq.copyright.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:46,771: WARNING/ForkPoolWorker-1] ???[???]: data.bae.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:47,447: WARNING/ForkPoolWorker-1] ???[???]: usdcmx01.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:48,793: WARNING/ForkPoolWorker-1] ???[???]: public-dns-a.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:03:49,888: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end build Domain info 1782 elapse 68.60744285583496
+[2025-07-22 17:03:50,494: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end run dns_query_plugin baidu.com, result 2962, real result:1737
+[2025-07-22 17:03:50,497: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start arl fetch baidu.com
+[2025-07-22 17:03:51,874: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start build Domain info 0
+[2025-07-22 17:03:51,875: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end build Domain info 0 elapse 0.0008566379547119141
+[2025-07-22 17:03:51,876: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end arl fetch baidu.com 0 elapse 1.3786821365356445
+[2025-07-22 17:03:52,151: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start baidu.com AltDNS 2633  dict 70
+[2025-07-22 17:03:52,152: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start AltDNS:baidu.com wildcard_record:
+[2025-07-22 17:03:53,603: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: MassDNS dict 1130429
+[2025-07-22 17:03:53,604: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: /code/app/tools/massdns -q -r /code/app/dicts/dnsserver.txt -o S -w /code/app/tmp/mass_dns_i2lac6 -s 1500 /code/app/tmp/domain_gen_lkv4uw --root
+[2025-07-22 17:05:46,011: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end AltDNS result 574, elapse 114.13197326660156
+[2025-07-22 17:05:46,329: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start build Domain info 220
+[2025-07-22 17:05:52,063: WARNING/ForkPoolWorker-1] ???[???]: uat.smarthome.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:52,149: WARNING/ForkPoolWorker-1] ???[???]: us2.vpn.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:52,179: WARNING/ForkPoolWorker-1] ???[???]: bsbshare.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:52,299: WARNING/ForkPoolWorker-1] ???[???]: dumu-test.cloud.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:52,762: WARNING/ForkPoolWorker-1] ???[???]: dsptest.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:55,143: WARNING/ForkPoolWorker-1] ???[???]: mx13.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:55,209: WARNING/ForkPoolWorker-1] ???[???]: cert-pre.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:55,371: WARNING/ForkPoolWorker-1] ???[???]: pre-shangjibao.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:55,440: WARNING/ForkPoolWorker-1] ???[???]: opencrm.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:55,591: WARNING/ForkPoolWorker-1] ???[???]: crmpre.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:58,619: WARNING/ForkPoolWorker-1] ???[???]: pisprod.offlinebapp.bae.baidu.com The resolution lifetime expired after 5.402 seconds: Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.; Server 127.0.0.11 UDP port 53 answered The DNS operation timed out.
+[2025-07-22 17:05:58,772: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: end build Domain info 206 elapse 12.442789316177368
+[2025-07-22 17:05:58,774: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: alt_dns real result:198
+[2025-07-22 17:06:08,973: ERROR/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: HTTPSConnectionPool(host='cn.bing.com', port=443): Read timed out. (read timeout=10.1)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 370, in connect
+    ssl_context=context)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 355, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib64/python3.6/ssl.py", line 365, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/lib64/python3.6/ssl.py", line 810, in __init__
+    self.do_handshake()
+  File "/usr/lib64/python3.6/ssl.py", line 1070, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib64/python3.6/ssl.py", line 648, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:860: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/retry.py", line 368, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 347, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 307, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cn.bing.com', port=443): Read timed out. (read timeout=10.1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/code/app/services/searchEngines.py", line 192, in run
+    urls.extend(engine(self.base_domain))
+  File "/code/app/services/searchEngines.py", line 166, in bing_search
+    urls.extend(b.run())
+  File "/code/app/services/searchEngines.py", line 131, in run
+    self.result_num()
+  File "/code/app/services/searchEngines.py", line 95, in result_num
+    html = utils.http_req(url, headers=self.headers).text
+  File "/code/app/utils/conn.py", line 67, in http_req
+    conn = getattr(requests, method)(url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cn.bing.com', port=443): Read timed out. (read timeout=10.1)
+[2025-07-22 17:06:09,088: WARNING/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: Unable to get baidu search results， site:baidu.com
+[2025-07-22 17:06:09,089: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: baidu search 0 results found for keyword site:baidu.com
+[2025-07-22 17:06:09,091: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: search_engines baidu.com, result domain:0 url:0
+[2025-07-22 17:06:13,751: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: start port_scan 1357
+[2025-07-22 17:06:13,825: INFO/ForkPoolWorker-1] app.celerytask.arl_task[6e1b3552-3071-4e97-ab59-52a21ebd121b]: nmap target 10.58.222.200 220.18  ports 1,3-4,6-7,9,13,17,19  arguments -sT -n --open -PE -PS22,80,443,843,3389,8007-8011,8443,9090,8080-8091,8093,8099,5000-5004,2222,3306,1433,21,25 --max-rtt-timeout 800ms --min-rate 64 --script-timeout 6s --max-hostgroup 32 --host-timeout 300s --min-parallelism 32 --max-retries 2
