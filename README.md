@@ -1,7 +1,3 @@
-好的，我已经将您的口述内容整理成了一份规范的 `README.md` 文档。请查看：
-
------
-
 # ARLDocker - ARL MCP on Docker
 
 本项目提供了一个便捷的 Docker 环境，用于快速部署和运行 [ARL (Asset Reconnaissance Lighthouse)](https://www.google.com/search?q=https://github.com/TophantTechnology/ARL) 的多协议信道（MCP），并方便地与 **蛙池AI (WaChi AI)** 等平台进行集成。
